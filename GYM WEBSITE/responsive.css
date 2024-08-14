@@ -1,0 +1,442 @@
+/* CSS for mobile view */
+@media only screen and (max-width: 767px) {
+
+    /* .navbar {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 180px;
+      
+        height: auto;
+        margin-top: 5px;
+       
+        margin-left: 5px;
+        
+    }
+
+    .nav-div {
+        width: 30%;
+       
+        margin-left: 0;
+        bottom: 50px;
+        position: relative;
+        height: auto;
+    }
+
+    .nav-links {
+        display: flex;
+        
+        flex-direction: column;
+        height: auto;
+    }
+
+    .join-us-button {
+        margin-top: 5px;
+        margin-right: 1px;
+        position: relative;
+        bottom: 40px;
+        align-items: center;
+    }
+
+    @media only screen and (min-width: 425px) {
+        .join-us-button {
+            margin-left: 40px;
+        }
+    }
+
+    @media only screen and (min-width: 375px) {
+        .join-us-button {
+            margin-left: 38px;
+        }
+    } */
+
+
+
+    .hero-section {
+        height: auto;
+        /* Adjusted height for better fit on mobile */
+        padding-bottom: 20px;
+        width: auto;
+        /* Added padding for better spacing */
+    }
+
+    .top-heading {
+        width: 50%;
+        /* Adjusted width for better fit on mobile */
+        margin: 10px auto;
+        /* Centered and adjusted margin for better positioning */
+        font-size: large;
+        /* Decreased font size for better fit on mobile */
+        text-align: center;
+        /* Centered text for better alignment */
+        height: auto;
+        top: 20px;
+        background: none;
+    }
+
+    .top-heading p {
+        font-size: x-small;
+        text-align: justify;
+    }
+
+    .get-button,
+    .trial-button {
+        width: 50%;
+        /* Adjusted button width for better fit on mobile */
+        font-size: small;
+        /* Decreased font size for better fit on mobile */
+        margin: 5px;
+        /* Adjusted margin for better spacing */
+    }
+
+    .social-icon {
+        text-align: center;
+        /* Centered icons for better alignment */
+        margin-top: 10px;
+        /* Adjusted margin for better spacing */
+        position: relative;
+        bottom: 70px;
+    }
+
+    .icons img {
+        width: 30px;
+        /* Decreased icon size for better fit on mobile */
+        height: 20px;
+        margin: 5px;
+        /* Adjusted margin for better spacing */
+    }
+
+    .gr-Container {
+        width: 100%;
+        /* Adjusted width for better fit on mobile */
+        /* margin: 10px auto; */
+        /* Centered and adjusted margin for better positioning */
+        position: relative;
+        bottom: 50px;
+        height: 600px;
+        /* height: auto; */
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* Changed grid to 2 columns for better fit on mobile */
+        grid-template-rows: repeat(3, auto);
+        /* Adjusted rows for better fit on mobile */
+        /* gap: 50px; */
+        /* Added gap for better spacing */
+        margin-right: 100px;
+        margin-left: 10px;
+        column-gap: 80px;
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    @media only screen and (min-width: 320px) {
+        .grid-container {
+            margin-right: 110px;
+        }
+
+    }
+
+    .grid-item {
+        padding: 5px;
+        /* Adjusted padding for better spacing */
+        text-align: center;
+        /* Centered text for better alignment */
+        border: none;
+        top: 10px;
+        font-family: Radio Canada;
+        font-weight: 500;
+        left: -30px;
+    }
+
+    .section-3 {
+        height: auto;
+        /* Adjusted height for better fit on mobile */
+        padding-bottom: 20px;
+        /* Added padding for better spacing */
+        position: relative;
+        bottom: 120px;
+    }
+
+
+    .section-3-wrapper {
+        flex-direction: column;
+        /* Changed flex direction for better alignment */
+        margin: 0px 80px;
+        /* Adjusted margin for better spacing */
+    }
+
+    .sction-3-items {
+        width: 50%;
+        /* Adjusted width for better fit on mobile */
+        margin: 5px 0;
+        /* Adjusted margin for better spacing */
+        height: 150px;
+        position: relative;
+        bottom: 25px;
+        gap: 2%;
+    }
+
+    .sction-3-items h5 {
+        font-weight: 500;
+        font-size: medium;
+        position: relative;
+    }
+
+    .twl-month {
+        position: relative;
+        bottom: 60px;
+    }
+
+    .basic {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .intrmdt {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .advance {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .montly {
+        position: relative;
+        bottom: 60px;
+    }
+
+    .streaming {
+        position: relative;
+        bottom: 90px;
+    }
+
+    .plan-btn {
+        width: 80%;
+        /* Adjusted button width for better fit on mobile */
+        font-size: medium;
+        /* Decreased font size for better fit on mobile */
+        margin-bottom: 10px;
+        /* Adjusted margin for better spacing */
+        position: relative;
+        bottom: 120px;
+    }
+
+    @media only screen and (min-width: 320px) {
+        .fitness-club img {
+            width: 100%;
+            position: relative;
+            bottom: 120px;
+            height: auto;
+        }
+
+        .gym-management {
+            position: relative;
+            bottom: 125px;
+            height: 10%;
+        }
+
+        .club-items {
+            grid-template-columns: repeat(1, 1fr);
+            width: 50%;
+            height: 40%;
+            position: relative;
+            bottom: 40px;
+            margin-left: 26%;
+            grid-gap: 4px;
+        }
+
+        .items img {
+            height: 40px;
+        }
+    }
+
+    /* .section-6,
+    .section-7-wrapper {
+        padding-bottom: 20px; */
+    /* Added padding for better spacing */
+    /* } */
+
+    .section-6 {
+        position: relative;
+        bottom: 180px;
+    }
+
+    .Success-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        /* Changed grid to 1 column for better fit on mobile */
+        gap: 10px;
+        /* Added gap for better spacing */
+        margin: 10px 50px;
+        /* Centered and adjusted margin for better positioning */
+    }
+
+    .wrapper-grid-items {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .wrapper-grid-items p {
+        font-size: x-small;
+        text-align: center;
+        padding-top: 35px;
+        position: relative;
+        bottom: 50px;
+    }
+
+
+
+    .Success-wrapper img {
+        width: 50%;
+        /* Adjusted image width for better fit on mobile */
+        height: 10%;
+        /* Ensured images maintain aspect ratio */
+        border-radius: 5px;
+        /* Added border radius for better appearance */
+        position: relative;
+        bottom: 50px;
+    }
+
+    .wrapper-grid-items {
+        padding: 10px;
+        /* Adjusted padding for better spacing */
+        text-align: center;
+        /* Centered text for better alignment */
+    }
+
+    .section-7-wrapper {
+        position: relative;
+        bottom: 190px;
+    }
+
+    .footercontainer {
+        display: none;
+
+    }
+
+    /* .footercontainer{
+        display: none;
+        justify-content: space-evenly;
+        padding: 10px 5px 25px 5px;
+        margin-right: 70px;
+      } */
+
+    .sub-footercontainer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 5px 25px 5px;
+        margin-right: 70px;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .sub-footerbox {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FootSub2_UnorderList {
+        list-style: none;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .sub-footer {
+        width: 100%;
+    }
+
+    .Footerheading {
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    .FootSub3_Greyclr {
+        font-size: small;
+    }
+
+    .FootSub3_Orgclr {
+        font-size: small;
+    }
+
+    .footer-items {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .footer-icons img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:475px) {
+        .popup-content {
+            height: 108%;
+        }
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    /* @@social media icon for mobile view */
+
+    .mbl-icn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .mbl-icn img {
+        display: block;
+        height: 32px;
+        width: 32px;
+        filter: brightness(25);
+    }
+
+    .search-icon img {
+        height: 25px;
+        width: 25px;
+        filter: brightness(25);
+        display: block;
+        margin-left: 25vh;
+    }
+    
+    .fitnes-text {
+        bottom: 260px;
+        left: 180px;
+        font-size: small;
+        text-decoration: underline 1px solid grey;
+        align-items: center;
+        text-align: center;
+    }
+    
+    @media only screen and (min-width: 375px) {
+        .fitnes-text {
+            font-size: small;
+            bottom: 260px;
+            left: 160px;
+        }
+
+        .search-icon img {
+            height: 25px;
+            width: 25px;
+            filter: brightness(25);
+            display: block;
+            margin-left: 20vh;
+        }
+    }
+}
+

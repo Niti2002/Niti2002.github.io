@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <link rel="stylesheet" href="Classes.css">
+    <link rel="stylesheet" href="class-responsive.css">
+    
+</head>
+
+<body>
+    <!-- <nav class="navbar">
+        <div class="logo">
+          <img src="gym_images/images/fitness logo.png" alt="">
+        </div>
+        <div class="nav-div">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Classes.html">Classes</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="Blogs.html">Blogs</a></li>
+          </ul>
+        </div>
+        <button class="join-us-button" onclick="toggleModal()">Join Us</button>
+      </nav> -->
+
+      <section class="top-nav">
+        <div class="logo">
+          <img src="gym_images/images/fitness logo.png" alt="">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        </label>
+      
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Classes.html">Classes</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="Blogs.html">Blogs</a></li>
+             <li><button class="join-us-button" onclick="toggleModal()">Join Us</button></li>
+          </ul>
+      </section>
+
+  
+
+
+    <!-- Section 2 Our Classes -->
+
+    <section class="our-class">
+        <br>
+        <div>
+            <h5>Our Classes</h5>
+        </div>
+
+        <div class="our-classes-wrapper">
+            <div class="wrapper-grid-items">
+                <img src="gym_images/images/gym3.jpg" alt="">
+                <p>6:30 - 7.30 AM</p>
+                <span><button class="power-excello">Power Excello</button></span>
+            </div>
+
+            <div class="wrapper-grid-items">
+                <img src="gym_images/images/gym2.webp" alt="">
+                <p>6:30 - 7.30 AM</p>
+                <span><button class="power-excello">Power Excello</button></span>
+            </div>
+
+            <div class="wrapper-grid-items">
+                <img src="gym_images/images/gym4.jpg" alt="">
+                <p>6:30 - 7.30 AM</p>
+                <span><button class="power-excello">Power Excello</button></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+
+    <main>
+        <div><br><p>Our Training Partners</p></div>
+    </main>
+
+    <!-- Section 4 -->
+
+    <div class="training-partners">
+        <div class="our-classes-wrapper">
+            <div class="traning-partner-container">
+                <img src="gym_images/images/img1.jpg" alt="">
+                <span><button class="trng-prtnr-btn">John Smith</button></span>
+            </div>
+
+            <div class="traning-partner-container">
+                <img src="gym_images/images/img2.jpg" alt="">
+                <span><button class="trng-prtnr-btn">Anais Louis</button></span>
+            </div>
+
+            <div class="traning-partner-container">
+                <img src="gym_images/images/img3.jpeg" alt="">
+                <span><button class="trng-prtnr-btn">Phil Heath</button></span>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Carausel section 4 -->
+
+    <div class="Nutritions">
+
+        <div id="carousel-container">
+            <button id="prevBtn" onclick="prevSlide()">&#10094;</button>
+            <div id="carousel">
+                <div class="carousel-slide">
+                    <img src="https://png.pngtree.com/background/20230610/original/pngtree-an-empty-gym-with-some-machines-picture-image_3105884.jpg">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://png.pngtree.com/background/20230528/original/pngtree-an-empty-gym-with-some-equipment-and-dark-walls-picture-image_2773763.jpg" alt="Image 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://png.pngtree.com/background/20230610/original/pngtree-the-gym-scene-where-people-are-sitting-in-a-gym-picture-image_3108802.jpg" alt="Image 3">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://png.pngtree.com/background/20230614/original/pngtree-people-exercising-inside-of-a-gym-picture-image_3488212.jpg" alt="Image 4">
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <button id="nextBtn" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+
+  <!-- Section 7 -->
+
+<!-- <section class="section-7-wrapper">
+    <div class="footercontainer">
+      <div class=" footerbox">
+        <img src="gym_images/images/WhatsApp_Image_2024-02-07_at_1.43.59_PM-removebg-preview.png" alt="logo" class="logo-gym">
+        <p>Priotrize Your Fitness Goals <br>With our World class Service</p>
+      </div>
+  
+      <div class="footerbox">
+        <h3 class="Footerheading">COMPANY</h3>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">About</a></li><br>
+          <li class="FootSub2_list"><a href="#">Blogs</a></li><br>
+          <li class="FootSub2_list"><a href="#">Careers</a></li>
+        </ul> 
+      </div>
+        
+      <div class="footerbox">
+        <h3 class="Footerheading">CONTACT</h3>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">Help/FAQs</a></li><br>
+          <li class="FootSub2_list"><a href="#">Press</a></li><br>
+          <li class="FootSub2_list"><a href="#">Mobile</a></li>
+        </ul> 
+      </div>
+  
+      <div class="footerbox">
+        <h3 class="Footerheading">MORE</h3>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">Program</a></li><br>
+          <li class="FootSub2_list"><a href="#">Plan</a></li><br>
+          <li class="FootSub2_list"><a href="#">Method</a></li>
+        </ul> 
+      </div>
+        
+      <div class="footerbox sub-footer">
+        <h3 class="Footerheading pop-tag">Popular Tags</h3>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">ABS</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">Workout</button></span>
+        <span><button class="FootSub3_Button FootSub3_Orgclr">Nutrition</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">ABS</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">Boxing</button></span>
+        <span><button class="FootSub3_Button FootSub3_Orgclr">Trainer</button></span>
+        <span class="FootSub3_margin"><button class="FootSub3_Button FootSub3_Orgclr FootSub3_margin">Facilies</button></span>
+      </div>  
+    </div>
+    <div class="footerbottom" >
+      <p>CopyRight All Rights Resevered</p>
+    </div>
+  </section> -->
+
+
+  <section class="section-7-wrapper">
+    <div class="footercontainer">
+      <div class="footerbox">
+        <img src="gym_images/images/WhatsApp_Image_2024-02-07_at_1.43.59_PM-removebg-preview.png" alt="logo"
+          class="logo-gym">
+        <p>Priotrize Your Fitness Goals <br>With our World class Service</p>
+      </div>
+
+      <div class="footerbox">
+        <h3 class="Footerheading">COMPANY</h3>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">About</a></li><br>
+          <li class="FootSub2_list"><a href="#">Blogs</a></li><br>
+          <li class="FootSub2_list"><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footerbox">
+        <h3 class="Footerheading">CONTACT</h3>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">Help/FAQs</a></li><br>
+          <li class="FootSub2_list"><a href="#">Press</a></li><br>
+          <li class="FootSub2_list"><a href="#">Mobile</a></li>
+        </ul>
+      </div>
+
+      <div class="footerbox">
+        <h3 class="Footerheading">MORE</h3>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">Program</a></li><br>
+          <li class="FootSub2_list"><a href="#">Plan</a></li><br>
+          <li class="FootSub2_list"><a href="#">Method</a></li>
+        </ul>
+      </div>
+
+      <div class="footerbox sub-footer">
+        <h3 class="Footerheading pop-tag">Popular Tags</h3>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">ABS</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">Workout</button></span>
+        <span><button class="FootSub3_Button FootSub3_Orgclr">Nutrition</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">ABS</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">Boxing</button></span>
+        <span><button class="FootSub3_Button FootSub3_Orgclr">Trainer</button></span>
+        <span class="FootSub3_margin"><button
+            class="FootSub3_Button FootSub3_Orgclr FootSub3_margin">Facilies</button></span>
+      </div>
+    </div>
+
+    <div class="sub-footercontainer">
+      <div class="footerbox">
+        <img src="gym_images/images/WhatsApp_Image_2024-02-07_at_1.43.59_PM-removebg-preview.png" alt="logo"
+          class="logo-gym">
+        <p>Priotrize Your Fitness Goals <br>With our World class Service</p>
+      </div>
+
+      <div class="sub-footerbox">
+        <!-- <h3 class="Footerheading">COMPANY</h3> -->
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">About</a></li><br>
+          <li class="FootSub2_list"><a href="#">Conact</a></li><br>
+          <li class="FootSub2_list"><a href="#">Careers</a></li>
+        </ul>
+        <ul class="FootSub2_UnorderList">
+          <li class="FootSub2_list"><a href="#">Membership</a></li><br>
+          <li class="FootSub2_list"><a href="#">Customer Service</a></li><br>
+        </ul>
+      </div>
+
+
+
+      <div class="footerbox sub-footer">
+        <h3 class="Footerheading pop-tag">Popular Tags</h3>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">ABS</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">Workout</button></span>
+        <span><button class="FootSub3_Button FootSub3_Orgclr">Nutrition</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">ABS</button></span>
+        <span><button class="FootSub3_Button FootSub3_Greyclr">Boxing</button></span>
+        <span><button class="FootSub3_Button FootSub3_Orgclr">Trainer</button></span>
+        <span class="FootSub3_margin"><button
+            class="FootSub3_Button FootSub3_Orgclr FootSub3_margin">Facilies</button></span>
+      </div>
+    </div>
+
+    <!-- @@@@for Mobile View icons -->
+
+    <div class="mbl-icn">
+      <img src="gym_images/images/mobile-view-wp-icon-removebg-preview.png" alt="">
+      <img src="gym_images/images/mobile-view-yt-icon-removebg-preview.png" alt="">
+      <img src="gym_images/images/mobile-view-Twiter-icon-removebg-preview.png" alt="">
+    </div>
+
+    <div class="footerbottom">
+      <p>CopyRight All Rights Resevered</p>
+    </div>
+  </section>
+    
+
+
+
+<!-- for Carousel Slider code -->
+
+<script>
+    let currentIndex = 0;
+    const totalSlides = document.querySelectorAll('.carousel-slide').length;
+
+    function showSlide(index) {
+        const carousel = document.getElementById('carousel');
+        const slideWidth = document.querySelector('.carousel-slide').offsetWidth;
+        const newPosition = -index * slideWidth;
+        carousel.style.transform = `translateX(${newPosition}px)`;
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        showSlide(currentIndex);
+    }
+</script>
+
+</html>

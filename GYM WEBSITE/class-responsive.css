@@ -1,0 +1,301 @@
+@media only screen and (max-width: 767px) {
+    /* .navbar {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 180px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .nav-div {
+        width: 30%;
+        margin-left: 0;
+        bottom: 50px;
+        position: relative;
+        height: auto;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .join-us-button {
+        margin-top: 5px;
+        margin-right: 1px;
+        position: relative;
+        bottom: 40px;
+        align-items: center;
+    }
+
+    @media only screen and (min-width: 425px) {
+        .join-us-button {
+            margin-left: 40px;
+        }
+    }
+
+    @media only screen and (min-width: 375px) {
+        .join-us-button {
+            margin-left: 38px;
+        }
+    } */
+
+    .our-class {
+        height: auto;
+        /* Adjusted height for better fit on mobile */
+    }
+
+    .our-class h5{
+        position: relative;
+        bottom: 45px;
+    }
+
+    .our-classes-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        /* Changed grid to 1 column for better fit on mobile */
+        margin-left: 90px;
+        /* Adjusted margin for better spacing */
+        margin-right: 50px;
+        column-gap: 5%;
+    }
+
+    .our-classes-wrapper img {
+        width: 60%;
+        /* Adjusted image width for better fit on mobile */
+        height: 20%;
+        /* Ensured images maintain aspect ratio */
+        border-radius: 5px;
+        /* Added border radius for better appearance */
+        position: relative;
+        bottom: 75px;
+    }
+
+    .wrapper-grid-items {
+        padding: 10px;
+        /* Adjusted padding for better spacing */
+        text-align: center;
+        /* Centered text for better alignment */
+    }
+
+    .wrapper-grid-items p{
+        position: relative;
+        bottom: 80px;
+        font-size: small;
+    }
+
+    .power-excello {
+        margin-right: 28%;
+        font-size: x-small;
+        position: relative;
+        bottom: 75px;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 425px){
+        .our-classes-wrapper{
+            margin-left: 110px;
+        }
+    }
+
+    main {
+        height: auto;
+        /* Adjusted height for better fit on mobile */
+        padding-bottom: 20px;
+        /* Added padding for better spacing */
+    }
+
+    .training-partners {
+        height: auto;
+        /* Adjusted height for better fit on mobile */
+        padding-bottom: 20px;
+        /* Added padding for better spacing */
+    }
+
+    .traning-partner-container {
+        grid-template-columns: repeat(1, 1fr);
+        /* Changed grid to 1 column for better fit on mobile */
+        margin-left: 20px;
+        /* Adjusted margin for better spacing */
+        margin-right: 30px;
+    }
+
+    @media only screen and (min-width: 425px){
+        .traning-partner-container{
+            margin-left: 38px;
+        }
+    }
+
+    @media only screen and (min-width: 375px){
+        .traning-partner-container{
+            margin-left: 38px;
+        }
+    }
+
+    .traning-partner-container img {
+        width: 130%;
+        /* Adjusted image width for better fit on mobile */
+        height: 150px;
+        /* Ensured images maintain aspect ratio */
+        border-radius: 5px;
+        /* Added border radius for better appearance */
+    }
+
+    .trng-prtnr-btn {
+        width: 100%;
+        /* Adjusted button width for better fit on mobile */
+        font-size: x-small;
+        /* Decreased font size for better fit on mobile */
+        margin-top: 10px;
+        /* Adjusted margin for better spacing */
+        right: 0px;
+        left: 10px;
+        top: -50%;
+        position: relative;
+        bottom: 80px;
+
+    }
+
+
+    .Nutritions {
+        position: relative;
+        bottom: 40px;
+    }
+
+
+    .carousel-slide img {
+        width: 150%;
+        height: 100%;
+        object-fit: cover; /* Ensure the image covers the entire container */
+    }
+
+    @media only screen and (min-width: 320px){
+        .carousel-slide img {
+            width: 150%;
+            height: 150%;
+            object-fit: cover; /* Ensure the image covers the entire container */
+        }
+    }
+
+    @media only screen and (min-width: 375px){
+        .carousel-slide img {
+            width: 160%;
+            height: 180%;
+            object-fit: cover; /* Ensure the image covers the entire container */
+        }
+    }
+
+    #prevBtn, #nextBtn {
+        top: 30%;
+    }
+
+
+
+    /* .section-7-wrapper {
+        padding-bottom: 20px;
+        position: relative;
+        bottom: 250px;
+       
+    }
+
+    .footercontainer {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+
+    .section-7-wrapper {
+        position: relative;
+        bottom: 190px;
+    }
+
+    .footercontainer {
+        display: none;
+        
+    }
+
+    .footercontainer{
+        display: none;
+        justify-content: space-evenly;
+        padding: 10px 5px 25px 5px;
+        margin-right: 70px;
+      } */
+
+    /* .section-7-wrapper {
+        position: relative;
+        bottom: 10px;
+    } */
+
+    @media only screen and (min-width: 320px){
+        .section-7-wrapper{
+            position: relative;
+            bottom: 269px;
+        }
+    }
+
+    .footercontainer {
+        display: none;
+        
+    }
+
+    .sub-footercontainer{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 5px 25px 5px;
+        margin-right: 70px;
+        flex-direction: column;
+        margin-left: 70px;
+      }
+
+      .sub-footerbox{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .FootSub2_UnorderList {
+        list-style: none;
+        margin-right: 0px;
+        margin-top: 0px;
+      }
+
+    .sub-footer {
+        width: 100%;
+    }
+
+    .Footerheading {
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    .FootSub3_Greyclr {
+        font-size: small;
+    }
+
+    .FootSub3_Orgclr {
+        font-size: small;
+    }
+
+    /* @@social media icon for mobile view */
+
+    .mbl-icn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+      
+      .mbl-icn img{
+        display: block;
+        height: 32px;
+        width: 32px;
+        filter: brightness(25);
+      }
+    
+}

@@ -1,0 +1,177 @@
+@media only screen and (max-width: 767px) {
+
+    /* Section 3 - Nutritions */
+
+    .Nutritions{
+        height: auto;
+    }
+
+    .Nutritions-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+        position: relative;
+        grid-gap:30px;
+        bottom: 50px;
+    }
+
+    .Nutritions-wrapper img {
+        height: 120px;
+        width: 180px;
+        margin-left: 25%;
+        
+    }
+
+    .Nutritions h5{
+        font-size: x-large;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .protin-btn{
+        font-size: small;
+        margin-left: 42%;
+        position: relative;
+        top: 10px;
+    }
+
+    .Nutritions::before{
+        height: 113%;
+      }
+
+
+    /* Section 4 - Weights */
+
+    .weights{
+        height: auto;
+        position: relative;
+        top:11px;
+    }
+
+    .weights-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        width: 60%;
+        position: relative;
+        bottom: 70px;
+        height: auto;
+    }
+
+    .weights-wrapper img {
+        height: 120px;
+        width: 180px;
+        margin-left: 25%;
+    }
+
+    .weights h5{
+        font-size: x-large;
+        position: relative;
+        bottom: 45px;
+    }
+
+    /* Section 5 - Apparel */
+
+    .apparel{
+        height: 800px;
+        position: relative;
+        bottom: 32px;
+    }
+
+    .apparel h5 {
+        font-size: x-large;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .apparel-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        width: 60%;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .apparel-wrapper img {
+        height: 120px;
+        width: 180px;
+        margin-left: 25%;
+    }
+
+    .yoga,
+    .zumba,
+    .run{
+        font-size: small;
+        margin-left: 48%;
+        position: relative;
+        top: 10px;
+    }
+
+
+    /* Section 7 */
+
+    .section-7-wrapper {
+        position: relative;
+        bottom: 300px;
+    }
+
+    .footercontainer {
+        display: none;
+
+    }
+
+    .sub-footercontainer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 5px 25px 5px;
+        margin-right: 70px;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    .sub-footerbox {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FootSub2_UnorderList {
+        list-style: none;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .sub-footer {
+        width: 100%;
+    }
+
+    .Footerheading {
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    .FootSub3_Greyclr {
+        font-size: small;
+    }
+
+    .FootSub3_Orgclr {
+        font-size: small;
+    }
+
+    /* @@social media icon for mobile view */
+
+    .mbl-icn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+      
+      .mbl-icn img{
+        display: block;
+        height: 32px;
+        width: 32px;
+        filter: brightness(25);
+      }
+}
